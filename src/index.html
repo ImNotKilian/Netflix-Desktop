@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="assets/css/material_icons.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="assets/js/webview.js"></script>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline';">
+        <title>Netflix</title>
+    </head>
+    <body>
+
+        <webview id="webview" autosize="on" src="https://www.netflix.com/browse" data-home="https://www.netflix.com/browse" plugins></webview>
+
+        <div class="bar drag title-bar">
+
+            <div class="title"> <img src="assets/icons/png/512.png" width="20px"> </div>
+            <div class="no-drag pointer cmd-btn" id="btn-home"> <i class="material-icons tiny" title="Minimize">home</i> </div>
+            <div class="no-drag pointer cmd-btn" id="btn-back"> <i class="material-icons tiny" title="Minimize">keyboard_arrow_left</i> </div>
+            <div class="no-drag pointer cmd-btn" id="btn-next"> <i class="material-icons tiny" title="Minimize">keyboard_arrow_right</i> </div>
+            <div class="no-drag pointer cmd-btn" id="btn-refresh"> <i class="material-icons tiny" title="Minimize">cached</i> </div>
+          
+            <div class="cmd-btns">
+
+                <div class="no-drag pointer cmd-btn" id="btn-minimize"> <i class="material-icons tiny" title="Minimize">remove</i> </div>
+                <div class="no-drag pointer cmd-btn" id="btn-maximize">
+                    <i id="icon_maximize" class="material-icons tiny" title="Maximize">crop_square</i>
+                    <i id="icon_restore" class="material-icons tiny hide" title="Restaure">filter_none</i>
+                </div>
+                <div class="no-drag pointer cmd-btn hover-red" id="btn-close"> <i class="material-icons tiny" title="Close">close</i> </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="assets/js/buttons.js"></script>
+    </body>
+</html>

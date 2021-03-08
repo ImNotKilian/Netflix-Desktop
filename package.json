@@ -1,0 +1,20 @@
+{
+  "name": "netflix-desktop",
+  "version": "1.0.0",
+  "description": "Netflix desktop app made in Electronjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ./src"
+  },
+  "repository": {
+  	"type": "git",
+  	"url": "https://github.com/sammwyy/netflix-desktop.git"
+  },
+  "keywords":["electron desktop app", "desktop app", "electron", "netflix"],
+  "author": "Sammwy <sammwy.dev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+  	"url": "https://github.com/sammwyy/netflix-desktop/issues"
+  },
+  "homepage": "https://github.com/sammwyy/netflix-desktop"
+}
